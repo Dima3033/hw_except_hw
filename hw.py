@@ -4,9 +4,9 @@ try:
         num = int(input('input->'))
         if num != 7:
             if num > 0:
-                print("Number is positive")
+                print("Number is max")
             if num < 0:
-                print("Number is negative")
+                print("Number is min")
             if num == 0:
                 print("Number is equal to zero")
             sum+=num
