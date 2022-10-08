@@ -1,13 +1,15 @@
 try:
-    num = int(input('input->'))
-    if num>> 0 and num !=7:
-        print("Number is positive")
-    elif num << 0 and num !=7:
-            print("Number is negative")
-    elif num==0:
-        print("Number is equal to zero")
-    elif num == 7:
-        print('Good Bye!')
+    while True:
+        num =int(input('input->'))
+        if num !=7:
+            if num>0:
+                print('Positive')
+            if num<0:
+                print('Negative')
+            if num == 0:
+                print('Zero')
+        else:
+            print('Good Bye!')
 except Exception as ex :
     print(f'Erorr information: {ex}')
 
