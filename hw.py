@@ -1,15 +1,11 @@
+import math
 try:
-    sum = 0
+    list = []
     while True:
-        num_1 = input('num1->')
-        num_2 = input('num2->')
-        if num_1 < num_2:
-            print(f"{num_1} is min")
-        elif num_1 > num_2:
-            print("{num_2} is min")
-            sum+=num_1
+        num = int(input('Число  - '))
+        if num != 7:
+            list.append(num)
         else:
-            print('sum = ', sum)
-            break
-except Exception as ex :
+         print(f' Sum: {sum(list)}\n Max: {max(list)}\n Min: {min(list)}\n Good Bye! ')
+except Exception as ex:
     print(f'Erorr information: {ex}')
